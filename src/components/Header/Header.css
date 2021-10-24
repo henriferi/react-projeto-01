@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+}
+
+#menu {
+    font-size: 20px;
+    padding: 10px 0;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(127, 136, 156);
+    justify-content: space-between
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0 5px;
+}
+
+li a {
+    color: white;
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+li a:hover {
+    color: gold;
+    width: 100%;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.9s;
+}
+
+#footer {
+    padding: 20px;
+    width: 100%;
+    background-color:  rgb(127, 136, 156);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    color: gold;
+}
+
+#footer a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    font-size: 17px;
+}
+    
+#linkedin {
+    width: 25px;
+    height: 25px;
+}
