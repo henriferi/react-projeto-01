@@ -1,0 +1,27 @@
+#footer {
+    padding: 20px;
+    width: 100%;
+    background-color:  rgb(127, 136, 156);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    color: gold;
+}
+
+#footer a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    font-size: 17px;
+}
+    
+#linkedin {
+    width: 25px;
+    height: 25px;
+}
